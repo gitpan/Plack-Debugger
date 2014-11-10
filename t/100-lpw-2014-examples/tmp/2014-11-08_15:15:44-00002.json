@@ -1,0 +1,1 @@
+{"results":[{"notifications":{"error":1,"success":0,"warning":1},"subtitle":"","result":{"testing":[1,2,3,{"here":{"we":"go","again":"!!"}}]},"title":"Test Panel","metadata":{"formatter":"nested_data","highlight_on_errors":1,"highlight_on_warnings":1}}],"uri":"http://localhost:5000/","request_uid":"2014-11-08_15:15:44-00002","method":"GET","timestamp":1415459744}
