@@ -5,7 +5,7 @@ package Plack::Middleware::Debugger::Injector;
 use strict;
 use warnings;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Middleware';
@@ -205,7 +205,7 @@ Plack::Middleware::Debugger::Injector - Middleware for injecting content into a 
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

@@ -5,7 +5,7 @@ package Plack::Debugger::Storage;
 use strict;
 use warnings;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use File::Spec;
@@ -129,7 +129,7 @@ Plack::Debugger::Storage - The storage manager for debugging data
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

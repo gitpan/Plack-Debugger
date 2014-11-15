@@ -16,7 +16,7 @@ use Plack::App::File;
 
 use Plack::Debugger;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Component';
@@ -203,7 +203,7 @@ Plack::App::Debugger - The web service backend for the debugger
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

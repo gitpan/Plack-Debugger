@@ -7,7 +7,7 @@ use warnings;
 
 use JSON::XS;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Exporter';
@@ -79,7 +79,7 @@ Plack::Test::Debugger::ResultGenerator - Test utility module for generating dumm
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

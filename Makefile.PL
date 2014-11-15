@@ -42,9 +42,10 @@ my %WriteMakefileArgs = (
     "Path::Class" => 0,
     "Test::Fatal" => 0,
     "Test::More" => "0.88",
+    "Test::Warn" => 0,
     "UUID::Tiny" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -65,6 +66,7 @@ my %FallbackPrereqs = (
   "Scalar::Util" => 0,
   "Test::Fatal" => 0,
   "Test::More" => "0.88",
+  "Test::Warn" => 0,
   "Time::HiRes" => 0,
   "Try::Tiny" => 0,
   "UUID::Tiny" => 0

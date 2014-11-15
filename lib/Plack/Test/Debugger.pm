@@ -5,7 +5,7 @@ package Plack::Test::Debugger;
 use strict;
 use warnings;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 # load the test implementation ...
@@ -32,7 +32,7 @@ Plack::Test::Debugger - A subclass of Plack::Test suitable for testing the debug
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

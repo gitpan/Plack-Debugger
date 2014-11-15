@@ -5,7 +5,7 @@ package Plack::Debugger::Panel::Environment;
 use strict;
 use warnings;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Debugger::Panel';
@@ -38,7 +38,7 @@ Plack::Debugger::Panel::Environment - Debug panel for inspecting $ENV
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

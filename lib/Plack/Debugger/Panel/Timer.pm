@@ -7,7 +7,7 @@ use warnings;
 
 use Time::HiRes qw[ gettimeofday tv_interval ];
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Debugger::Panel';
@@ -68,7 +68,7 @@ Plack::Debugger::Panel::Timer - Debug panel for inspecting page generation timin
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
