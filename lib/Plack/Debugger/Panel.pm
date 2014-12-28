@@ -8,7 +8,7 @@ use warnings;
 use Try::Tiny;
 use Scalar::Util qw[ refaddr ];
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use constant DEBUGGER_PHASES     => [ qw[ before after cleanup  ] ];
@@ -238,7 +238,7 @@ Plack::Debugger::Panel - Base class for the debugger panels
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

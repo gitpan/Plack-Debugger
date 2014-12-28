@@ -5,7 +5,7 @@ package Plack::Middleware::Debugger::Injector;
 use strict;
 use warnings;
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Middleware';
@@ -44,6 +44,9 @@ sub should_ignore_status {
     my ($self, $env, $resp) = @_;
     # if it is in the 1xx - Informational range, we can ignore it 
     ($resp->[0] < 200)
+        ||
+    # within the 2xx - Success range we have the 202 Accepted, which is basically HTTP for "meh", so we should ignore it
+    ($resp->[0] == 202)        
         ||
     # within the 2xx - Success range we have the 204 No Content, which we should ignore 
     ($resp->[0] == 204)
@@ -205,7 +208,7 @@ Plack::Middleware::Debugger::Injector - Middleware for injecting content into a 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

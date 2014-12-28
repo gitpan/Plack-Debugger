@@ -8,7 +8,7 @@ use warnings;
 use Scalar::Util qw[ blessed ];
 use POSIX        qw[ strftime ];
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use Plack::Request;
@@ -218,7 +218,7 @@ Plack::Debugger - Debugging tool for Plack web applications
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

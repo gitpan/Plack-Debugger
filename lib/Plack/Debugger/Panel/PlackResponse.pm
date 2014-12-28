@@ -8,7 +8,7 @@ use warnings;
 use HTTP::Status qw[ is_error status_message ];
 use Scalar::Util qw[ blessed ];
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Debugger::Panel';
@@ -59,7 +59,7 @@ Plack::Debugger::Panel::PlackResponse - Debug panel for inspecting the Plack res
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

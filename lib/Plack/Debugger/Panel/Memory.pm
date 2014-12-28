@@ -5,7 +5,7 @@ package Plack::Debugger::Panel::Memory;
 use strict;
 use warnings;
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Debugger::Panel';
@@ -64,7 +64,7 @@ Plack::Debugger::Panel::Memory - Debug panel for watching memory usage
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

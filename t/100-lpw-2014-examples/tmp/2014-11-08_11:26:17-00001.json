@@ -1,1 +1,0 @@
-{"uri":"http://localhost:5000/","request_uid":"2014-11-08_11:26:17-00001","timestamp":1415445977,"results":[{"notifications":{"success":0,"error":1,"warning":1},"metadata":{"highlight_on_errors":1,"highlight_on_warnings":1,"formatter":"nested_data"},"title":"Test Panel","result":{"testing":[1,2,3,{"here":{"we":"go","again":"!!"}}]},"subtitle":""}],"method":"GET"}

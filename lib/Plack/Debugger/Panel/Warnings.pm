@@ -5,7 +5,7 @@ package Plack::Debugger::Panel::Warnings;
 use strict;
 use warnings;
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 use parent 'Plack::Debugger::Panel';
@@ -65,7 +65,7 @@ Plack::Debugger::Panel::Warnings - Debug panel for viewing warnings called durin
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

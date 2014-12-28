@@ -33,4 +33,4 @@ requires:
   Try::Tiny: '0'
 resources:
   repository: https://github.com/stevan/p5-plack-debugger.git
-version: '0.02'
+version: '0.03'

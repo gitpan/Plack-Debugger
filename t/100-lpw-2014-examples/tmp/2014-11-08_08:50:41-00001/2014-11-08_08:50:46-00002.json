@@ -1,8 +1,0 @@
-{
-    "method": "GET",
-    "parent_request_uid": "2014-11-08_08:50:41-00001",
-    "request_uid": "2014-11-08_08:50:46-00002",
-    "results": [],
-    "timestamp": 1415436646,
-    "uri": "http://localhost:5000/api"
-}

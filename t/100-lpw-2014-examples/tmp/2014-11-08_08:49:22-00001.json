@@ -1,1 +1,0 @@
-{"results":[{"subtitle":0.000179,"metadata":{"formatter":"ordered_key_value_pairs"},"result":["Elapsed Time",0.000179,"Starting Time","2014.11.08 08:49:22.918385","Ending Time","2014.11.08 08:49:22.918564"],"title":"Timer"}],"timestamp":1415436562,"method":"GET","uri":"http://localhost:5000/","request_uid":"2014-11-08_08:49:22-00001"}
